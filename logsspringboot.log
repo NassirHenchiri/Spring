@@ -1,0 +1,126 @@
+2020-11-04 09:50:53.688  INFO 19428 --- [main] tn.esprit.spring.test.EntrepriseTest     : Starting EntrepriseTest on LAPTOP-AJPLHOV9 with PID 19428 (started by Dr bomb!st in C:\Users\21628\Desktop\spring\Projet Spriing\integration_continue_projet)
+2020-11-04 09:50:53.703  INFO 19428 --- [main] tn.esprit.spring.test.EntrepriseTest     : No active profile set, falling back to default profiles: default
+2020-11-04 09:50:56.058  INFO 19428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-04 09:50:56.479  INFO 19428 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-11-04 09:50:56.484  INFO 19428 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-11-04 09:50:56.504  INFO 19428 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 20 ms
+2020-11-04 09:50:56.690  INFO 19428 --- [main] tn.esprit.spring.test.EntrepriseTest     : Started EntrepriseTest in 3.474 seconds (JVM running for 6.105)
+2020-11-04 09:50:57.069  INFO 19428 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-04 09:51:23.719  INFO 4372 --- [main] SpringBootCoreDataJpaMvcRest1Application : Starting TimesheetSpringBootCoreDataJpaMvcRest1Application on LAPTOP-AJPLHOV9 with PID 4372 (started by Dr bomb!st in C:\Users\21628\Desktop\spring\Projet Spriing\integration_continue_projet)
+2020-11-04 09:51:23.725  INFO 4372 --- [main] SpringBootCoreDataJpaMvcRest1Application : No active profile set, falling back to default profiles: default
+2020-11-04 09:51:24.474  INFO 4372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-04 09:51:24.589  INFO 4372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104ms. Found 6 repository interfaces.
+2020-11-04 09:51:24.943  INFO 4372 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58229d36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-04 09:51:25.403  INFO 4372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-11-04 09:51:25.429  INFO 4372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-04 09:51:25.429  INFO 4372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-11-04 09:51:25.582  INFO 4372 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2020-11-04 09:51:25.582  INFO 4372 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1806 ms
+2020-11-04 09:51:25.751  INFO 4372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-04 09:51:25.912  INFO 4372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-04 09:51:25.967  INFO 4372 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-11-04 09:51:26.029  INFO 4372 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2020-11-04 09:51:26.030  INFO 4372 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-11-04 09:51:26.172  INFO 4372 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-11-04 09:51:26.323  INFO 4372 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-11-04 09:51:27.197  INFO 4372 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-04 09:51:27.467  INFO 4372 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-11-04 09:51:27.941  INFO 4372 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-04 09:51:27.978  WARN 4372 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-04 09:51:28.212  INFO 4372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path '/SpringMVC'
+2020-11-04 09:51:28.215  INFO 4372 --- [main] SpringBootCoreDataJpaMvcRest1Application : Started TimesheetSpringBootCoreDataJpaMvcRest1Application in 4.91 seconds (JVM running for 5.936)
+2020-11-04 11:48:44.126  INFO 1468 --- [main] SpringBootCoreDataJpaMvcRest1Application : Starting TimesheetSpringBootCoreDataJpaMvcRest1Application on LAPTOP-AJPLHOV9 with PID 1468 (started by Dr bomb!st in C:\Users\21628\Desktop\spring\Projet Spriing\integration_continue_projet)
+2020-11-04 11:48:44.130  INFO 1468 --- [main] SpringBootCoreDataJpaMvcRest1Application : No active profile set, falling back to default profiles: default
+2020-11-04 11:48:45.039  INFO 1468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-04 11:48:45.175  INFO 1468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126ms. Found 6 repository interfaces.
+2020-11-04 11:48:45.672  INFO 1468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2a650f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-04 11:48:46.218  INFO 1468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-11-04 11:48:46.260  INFO 1468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-04 11:48:46.261  INFO 1468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-11-04 11:48:46.477  INFO 1468 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2020-11-04 11:48:46.477  INFO 1468 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2293 ms
+2020-11-04 11:48:46.707  INFO 1468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-04 11:48:46.890  INFO 1468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-04 11:48:46.969  INFO 1468 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-11-04 11:48:47.056  INFO 1468 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2020-11-04 11:48:47.059  INFO 1468 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-11-04 11:48:47.225  INFO 1468 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-11-04 11:48:47.406  INFO 1468 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-11-04 11:48:48.515  INFO 1468 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-04 11:48:48.898  INFO 1468 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-11-04 11:48:49.541  INFO 1468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-04 11:48:49.588  WARN 1468 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-04 11:48:49.833 ERROR 1468 --- [main] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8083]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at tn.esprit.spring.TimesheetSpringBootCoreDataJpaMvcRest1Application.main(TimesheetSpringBootCoreDataJpaMvcRest1Application.java:11) ~[classes/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:479) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:468) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1103) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1189) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	... 14 common frames omitted
+
+2020-11-04 11:48:49.839  INFO 1468 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-04 11:48:49.848  INFO 1468 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-04 11:48:49.852 ERROR 1468 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8083 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8083, or configure this application to listen on another port.
+
+2020-11-04 11:48:49.855  INFO 1468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-04 11:48:49.858  INFO 1468 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-04 11:48:49.861  INFO 1468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-04 11:48:49.869  INFO 1468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-04 11:49:07.540  INFO 4372 --- [http-nio-8083-exec-2] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-04 11:49:07.541  INFO 4372 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-04 11:49:07.556  INFO 4372 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-11-04 11:49:58.910  INFO 22640 --- [main] tn.esprit.spring.test.EntrepriseTest     : Starting EntrepriseTest on LAPTOP-AJPLHOV9 with PID 22640 (started by Dr bomb!st in C:\Users\21628\Desktop\spring\Projet Spriing\integration_continue_projet)
+2020-11-04 11:49:58.915  INFO 22640 --- [main] tn.esprit.spring.test.EntrepriseTest     : No active profile set, falling back to default profiles: default
+2020-11-04 11:50:01.428  INFO 22640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-04 11:50:01.903  INFO 22640 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-11-04 11:50:01.904  INFO 22640 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-11-04 11:50:01.931  INFO 22640 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 27 ms
+2020-11-04 11:50:02.143  INFO 22640 --- [main] tn.esprit.spring.test.EntrepriseTest     : Started EntrepriseTest in 3.723 seconds (JVM running for 6.339)
+2020-11-04 11:50:02.548  INFO 22640 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-04 14:02:36.258  INFO 4372 --- [RMI TCP Connection(153)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-04 14:02:36.288  INFO 4372 --- [RMI TCP Connection(153)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-04 14:02:36.292  INFO 4372 --- [RMI TCP Connection(153)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-04 14:02:36.316  INFO 4372 --- [RMI TCP Connection(153)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-04 14:02:36.333  INFO 4372 --- [RMI TCP Connection(153)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
